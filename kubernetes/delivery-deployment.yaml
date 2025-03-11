@@ -14,7 +14,7 @@ spec:
         app: delivery
     spec:
       containers:
-      - image: user14cr.azurecr.io/delivery:v1
+      - image: user14cr.azurecr.io/delivery:latest
         name: delivery
         ports:
         - containerPort: 80
